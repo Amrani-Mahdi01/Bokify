@@ -1,0 +1,32 @@
+.top-books p {
+  width: 50%;
+  color: #555;
+}
+.top-books h1 {
+  color: #0160ff;
+}
+.top-books-features-feature i {
+  font-size: 35px;
+  color: #0160ff;
+}
+
+.top-books-features-feature p {
+  width: 100%;
+}
+.top-books-btn {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 0 16px;
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+}
+.top-books-btn:hover {
+  background-color: #0160ff;
+  border: 1px solid #fff;
+}
+.top-books-btn i{
+  transition: 0.3s ease-in-out;
+}
+.top-books-btn:hover i {
+  color: #fff;
+}

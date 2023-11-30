@@ -1,0 +1,44 @@
+.home-desc h2 {
+    color: #1b3764;
+}
+
+.home-btn{
+    border: none;
+    background : #0160FF;
+    border-radius: 5px;
+    color: #fff;
+}
+.home-desc-img{
+    height: 550px;
+}
+.home-desc-img .img {
+    width: 100%;
+    height: 100%;
+ 
+}
+.home-desc-img .img  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+.home-desc-title{
+    transform: translateY(80px);
+    opacity: 0;
+}
+.home-desc-title-logo{
+    transform: translateY(80px);
+    opacity: 0;
+}
+.home-btn{
+    transform: translateY(80px);
+    opacity: 0;
+}
+.home-btn:hover{
+    background-color: #1b3764;
+}
+.Home-img{
+    transform: scale(0);
+    opacity: 0;
+}

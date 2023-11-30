@@ -1,0 +1,40 @@
+.Author-coll p {
+    width: 50%;
+    color: #555;
+}
+.Author-coll h1 {
+    color: #0160ff;
+}
+.Author-Fillters button{
+    background: none;
+    border: 1px solid #ccc;
+    padding: 10px 26px;
+    border-radius: 4px;
+    font-weight: 600;
+    
+}
+.Author-Fillters button.active {
+    background-color: #0160ff;
+    color: #fff;
+}
+.book-card{
+
+    width: 200px;
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    overflow: hidden; /* Hide overflowing content */
+    text-overflow: ellipsis;
+    display: inline-block; /* Add this line */
+    text-align: center;
+
+    
+}
+.book-card p {
+    width: 100%;
+}
+.price {
+    color: #0160ff;
+}
+.Others{
+    background-color: #03C988 !important;
+    color: #fff !important;
+}

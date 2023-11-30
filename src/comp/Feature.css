@@ -1,0 +1,54 @@
+.feature-img{
+    border-radius: 10px;
+}
+.feature {
+    height: 100vh;
+    
+}
+.feature .col-5{
+   height: 600px;
+}
+.feature .col-5 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.Meet-the-author{
+    color: #0160FF;
+}
+.MTA-container p {
+    color: #555;
+}
+.line{
+    height: 60px;
+    width: 2px;
+    background-color: rgba(85, 85, 85, 0.315);
+}
+.public-book {
+    color: #0160FF;
+}
+.btns button{
+    padding: 10px 40px;
+    background: none;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.btns button:nth-child(1) {
+    background-color: #0160FF;
+    color: #fff;
+    transition: 0.3s ease-in;
+}
+.btns button:nth-child(1):hover{
+    background-color: #fff;
+    color: #0160FF;
+}
+.btns button:nth-child(2){
+    border: 1px solid #ccc;
+    transition: 0.3s ease-in;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+} 
+.btns button:nth-child(2):hover{
+    background-color: #0160FF;
+    color: #fff;
+}

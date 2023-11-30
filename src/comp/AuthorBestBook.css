@@ -1,0 +1,46 @@
+.author-book h1 {
+    color: #0160FF;
+}
+.author-book  p {
+    color: #555;
+    width: 45%;
+}
+.book-img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 15px -4px #000000; 
+box-shadow: 0px 0px 15px -4px #000000;
+}
+.book-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s ease-in;
+    
+}
+.book-img img:hover{
+    transform: scale(1.2);
+}
+.book-desc-p {
+    width: 100% !important;
+}
+.book-desc h3 {
+    color: #0160FF ;
+}
+.book-desc  button {
+    border: 1px solid #ccc;
+    background: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.check{
+    color: #0160FF;
+}
+.book-desc button{
+    transition: 0.3s ease-in;
+}
+.book-desc button:hover{
+    color: #fff;
+    background-color: #0160FF;
+}

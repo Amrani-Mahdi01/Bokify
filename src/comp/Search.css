@@ -1,0 +1,28 @@
+.search-inp{
+    border: none;
+    width: 93%;
+    border-radius: 40px;
+    outline: none;
+
+}
+.search-btn {
+    border-radius: 40px ;
+    border: 1px solid #555;
+    width: 80%;
+
+}
+.search-container {
+    width: 100%;
+}
+.search-btn-icon{
+    cursor: pointer;
+}
+.search-result-container{
+
+}
+.book-searched{
+    width: 300px;
+}
+.book-searched-title {
+    display: block;
+}
